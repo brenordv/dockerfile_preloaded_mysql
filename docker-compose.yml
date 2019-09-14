@@ -1,0 +1,8 @@
+version: "3.2"
+services:
+
+  mysql-server-db:
+    container_name: mysql-server-db
+    image: preLoadedMySql:latest
+    ports:
+      - "3306:3306"
