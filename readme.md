@@ -6,7 +6,7 @@ This is an example of how to create a Docker image that comes preloaded with som
 
 2. Build the image.
 ```shell
-docker build -t preLoadedMySql:latest .
+docker build -t preloadedmysql:latest .
 ```
 
 3. [optional] After the build, start a container.
@@ -16,7 +16,7 @@ docker-compose up -d
 
 Done!
 
-If you want, you can change the image name from ```preLoadedMySql``` to something else.
+If you want, you can change the image name from ```preloadedmysql``` to something else.
 
 
 ---
